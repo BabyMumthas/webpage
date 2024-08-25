@@ -1,0 +1,49 @@
+img{
+    border-radius: 500%;
+    width: 60px;
+    display: flex;
+    justify-content:end;
+}
+nav {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+nav ul li {
+    
+    margin: 10px 20px;
+    width: max-content;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(225, 5, 5);
+}
+.aget{
+    padding: 10px 20px;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: rgb(219, 162, 248);
+    padding : 5px;           
+    display: inline-block;
+}
+.section{
+    display: flex;
+    justify-content: right;
+}

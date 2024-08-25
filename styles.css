@@ -35,6 +35,9 @@ nav ul li a:hover {
 .aget{
     padding: 10px 20px;
 }
+navbar{
+    display: none;
+}
 .get{
     display: flex;
     justify-content: center;
@@ -43,7 +46,40 @@ nav ul li a:hover {
     padding : 5px;           
     display: inline-block;
 }
+nav.top{
+padding: unset;
+}
 .section{
     display: flex;
     justify-content: right;
+}
+@media(max-width:600px) {
+navbar{
+    display: flex;
+}
+.bar {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 6px;
+    width: 30px;
+
+}
+.top{
+    display: none;
+
+}
+.space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.span {
+
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 2px;
+}
 }

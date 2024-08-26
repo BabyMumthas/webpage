@@ -1,8 +1,11 @@
-img{
-    border-radius: 500%;
-    width: 60px;
-    display: flex;
-    justify-content:end;
+
+
+
+
+h3{
+    font-family: sans-serif;
+    padding: 21px 300px;
+
 }
 nav {
     display: flex;
@@ -12,6 +15,7 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
 nav ul {
     display: flex;
     align-items: center;
@@ -19,10 +23,11 @@ nav ul {
 }
 
 nav ul li {
-    
+
     margin: 10px 20px;
     width: max-content;
 }
+
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
@@ -32,54 +37,116 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(225, 5, 5);
 }
-.aget{
+
+.aget {
     padding: 10px 20px;
 }
-navbar{
+
+navbar {
     display: none;
 }
-.get{
+
+.get {
     display: flex;
     justify-content: center;
     border-radius: 100px;
     background-color: rgb(219, 162, 248);
-    padding : 5px;           
+    padding: 5px;
     display: inline-block;
 }
-nav.top{
-padding: unset;
+
+nav.top {
+    padding: unset;
 }
-.section{
+
+h1 {
+    padding: 60px;
+    font-family: sans-serif;
+}
+
+.section {
     display: flex;
     justify-content: right;
 }
-@media(max-width:600px) {
-navbar{
-    display: flex;
+img{
+    border-radius: 500%;
+    width: 60px;
 }
-.bar {
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
-    gap: 6px;
-    width: 30px;
-
-}
-.top{
-    display: none;
-
-}
-.space {
+.pic
+{padding: 7px 180px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    border-radius: 105px;
+    width: 1400px;
+    height: 315px;
 }
-.span {
+ .pic {
+    border-radius: 111px;
+    padding: 1px 39px;
+    height: 355px;
 
-    height: 4px;
-    width: 100%;
-    background-color: black;
-    border-radius: 2px;
 }
+h4{
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    padding: 11px 63px 11px 47px;
+    display: inline-block;
+    color:rgb(255, 255, 255) ;
+    font-size: 22px;
+}
+.head{
+    display: flex;
+    
+}
+p{
+    padding: 60px;
+    font-family: sans-serif;
+    font-size: xxx-large;
+}
+@media(max-width:600px) {
+    .header {
+        width: 100%;
+    }
+
+    navbar {
+        display: flex;
+    }
+div{
+    display: flex;
+}
+    .bar {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        gap: 6px;
+        width: 30px;
+
+    }
+ 
+.head{
+    display: flex;
+    justify-content: center;
+}
+    .top {
+        display: none;
+
+    }
+
+    .space {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .span {
+
+        height: 4px;
+        width: 100%;
+        background-color: black;
+        border-radius: 2px;
+    }
+
 }

@@ -140,6 +140,7 @@ p {
     }
 .icon{
     display: flex;
+    width: 100%;
 }
     .pic {
         display: flex;
@@ -198,5 +199,9 @@ p {
         object-fit: inherit;
         height: 100px;
         padding:0px;
+    }
+    .div{
+        display: flex;
+        width: 100%;
     }
 }

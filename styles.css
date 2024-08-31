@@ -93,7 +93,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 17vh;
+    height: 25vh;
     font-size: 27px;
 }
 
@@ -120,7 +120,7 @@ h1 {
 
 .div {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     font-size: 11px;
     width: 100%;
     justify-content: space-between;
@@ -227,6 +227,7 @@ p {
 
     .paragraph {
         display: flex;
+        padding: 0px;
     }
 
     .pic {
@@ -259,7 +260,7 @@ p {
     .head {
         display: flex;
         justify-content: center;
-        padding: 46px 10px 14px 32px;
+        padding: 20px 10px 14px 32px;
     }
 
     nav {
@@ -274,7 +275,7 @@ p {
     }
 
     h1 {
-        height: 14vh;
+        height: 17vh;
         font-size: 15px
     }
 
@@ -304,6 +305,7 @@ p {
         display: flex;
         width: 100%;
         font-size: 8px;
+        align-items: center;
     }
 
     p {
